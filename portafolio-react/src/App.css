@@ -1,0 +1,120 @@
+/* Estilos generales */
+.app {
+  font-family: 'Courier New', Courier, monospace;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #564e4e;
+  list-style-type: none;
+}
+
+.nombre-container, .datos-container, .estudios-container,
+.cursos-container, .habilidades-container, .tecnicas-container,
+.contacto-container {
+  width: 90%;
+  max-width: 680px;
+  margin: 50px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+  padding: 50px;
+  border: 5px solid #000000;
+  border-radius: 30px;
+  background-color: #eeda22;
+  list-style-type: none; /* Quita viñetas y números */
+  padding-left: 10;     
+}
+
+.seccion {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.nombre-apellido {
+  color: #000000;
+}
+
+/* Estilo para el contenedor principal (manteniendo tu tema amarillo/negro) */
+.nombre-container, .datos-container, .estudios-container,
+.cursos-container, .habilidades-container, .tecnicas-container,
+.contacto-container {
+  border: 5px solid #000000;
+  border-radius: 30px;
+  background-color: #eeda22;
+  color: #000000;
+
+}
+
+
+/* Estilo para las áreas de interés */
+.areas-interes {
+  background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+  border-radius: 15px;
+}
+
+/* Tipografía especial para títulos */
+h1 {
+  font-weight: 900;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Viñetas personalizadas */
+.areas-interes li {
+  font-weight: 600;
+}
+
+/* Contenedor padre para los logos */
+.logos-container {
+  width: 100%;
+  padding-right: 20px; /* Ajusta según necesites */
+}
+
+/* Contenedores individuales para cada logo */
+.logo-box {
+ border-radius: 20px;
+  background-color: #eeda22; /* Fondo amarillo */
+  padding: 10px;         /* Espacio interno */
+  display: flex;         /* Centra la imagen dentro del contenedor */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilos para las imágenes de los logos */
+.tech-logo {
+  width: 80px;           /* Tamaño fijo */
+  height: 80px;
+  object-fit: contain;   /* Mantiene proporciones */
+  transition: transform 0.3s ease;
+}
+
+/* Efecto hover opcional */
+.tech-logo:hover {
+  transform: scale(1.1);
+}
+
+/*footer*/
+
+.contacto-info, h2{
+  text-align: center;
+  
+}
+
+.tech-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  transition: transform 0.3s;
+}
+
+.tech-icon:hover {
+  transform: scale(1.1);
+}
